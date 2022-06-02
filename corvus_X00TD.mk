@@ -16,14 +16,11 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Corvus Properties
-TARGET_INCLUDE_WIFI_EXT := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_GAPPS := true
 RAVEN_LAIR := Krypyonite-EDITION
-CORVUS_MAINTAINER := Rajat Kashyap
+CORVUS_MAINTAINER := Rajat_Kashyap
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := corvus_X00TD
