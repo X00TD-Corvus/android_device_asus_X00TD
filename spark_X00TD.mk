@@ -15,6 +15,10 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Gapps
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_X00TD
 PRODUCT_DEVICE := X00TD
@@ -27,7 +31,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X00T \
     PRODUCT_NAME=WW_X00T \
-    PRIVATE_BUILD_DESC="sdm660_64-user 8.1.0 OPM1 1309 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SQ3A.220605.009.A1 8643238 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "asus/WW_X00TD/ASUS_X00T_2:8.1.0/OPM1/15.2016.1805.318-20180712:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys"
