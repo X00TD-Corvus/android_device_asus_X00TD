@@ -688,3 +688,10 @@ vendor/firmware/widevine.b05
 vendor/firmware/widevine.b06
 vendor/firmware/widevine.b07
 vendor/firmware/widevine.mdt
+
+# Thermal
+vendor/bin/thermal-engine
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalfeature.so
+vendor/lib64/libthermalioctl.so
