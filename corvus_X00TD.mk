@@ -33,7 +33,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X00T \
     PRODUCT_NAME=WW_X00T \
-    PRIVATE_BUILD_DESC="redfin-user 12 SQ3A.220605.009.A1 8643238 release-keys"
+    PRIVATE_BUILD_DESC="google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys"
