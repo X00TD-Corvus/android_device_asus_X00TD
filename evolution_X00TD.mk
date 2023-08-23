@@ -13,7 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USES_MINI_GAPPS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 EVO_BUILD_TYPE := UNOFFICIAL
 
 # Inherit from X00TD device
@@ -31,7 +32,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X00T \
     PRODUCT_NAME=WW_X00T \
-    PRIVATE_BUILD_DESC="cheetah-user 13 TQ2A.230505.002 9891397 release-keys"
+    PRIVATE_BUILD_DESC="cheetah-user 13 TQ3A.230705.001.A1 10217028 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ2A.230505.002/9891397:user/release-keys"
+BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230705.001.A1/10217028:user/release-keys"
